@@ -1,0 +1,57 @@
+#wrapper{
+    display:flex;
+    width: 33%; 
+    margin: 0 auto;
+    height: 800px;
+}
+
+.path {
+    width:5%;
+}
+
+.people {
+    padding: 12px;
+}
+
+.person {
+    padding: 20px;
+    display: table;
+}
+.avatar {        
+    overflow: hidden;
+    padding: 5px;    
+    /*border: gray solid 1px;*/
+    border-radius: 50%;
+    display:table-cell;
+    vertical-align:middle;    
+}
+
+.avatar img {
+    
+    width: 35px;
+    height: 35px;    
+}
+.name {
+    padding: 10px;
+    display:table-cell;
+    vertical-align:middle;
+}
+.avatar:hover {    
+    background: rgba(202, 235, 13, 0.548);
+    transform: scale(1.2);        
+}
+
+table {    
+    border-collapse: collapse;    
+}
+
+table tr {
+    height: 80px;
+    border-bottom: 1px solid #008a9975; 
+}
+
+table tr:nth-child(odd){
+        
+    background: rgba(202, 235, 13, 0.226);
+}
+
